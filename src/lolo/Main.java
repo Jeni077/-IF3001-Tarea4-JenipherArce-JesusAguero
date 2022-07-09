@@ -15,7 +15,13 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-    }
+       
+        AVL árbol = new AVL (); 
+        árbol.insertar(6); 
+        árbol.insertar(3); 
+        árbol.insertar(7); 
+        árbol.visualizar(); 
+    } 
+    
     
 }
